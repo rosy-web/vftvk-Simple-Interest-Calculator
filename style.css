@@ -14,7 +14,7 @@ h1{color:grey;font-family:verdana;font-size:1.2em;margin:15px 0 25px;text-align:
 .error>.wpr_btns>.result{background-color:#dc3545;border:1px solid #dc3545;}
 .wpr_result{background-color:#d4edda;border-color:#c3e6cb;border-radius:5px;color:#155724;display:none;font-size:0.9em;margin-top:10px;padding:6px 8px;}
 .result>.wpr_result{display:block}
-.result>.wpr_result b{font-size:1.1em}
+.result>.wpr_result b{font-size:1.1em;background-color: yellow;}
 .result>.wpr_btns>button{display:inline-block}
 .result.error>.wpr_btns>.result{background-color:#28a745;border:1px solid #28a745;}
 footer{text-align: center;font-size:.9em;margin-top:10px;}
