@@ -1,4 +1,20 @@
-body {background-color:tan;}
-h1{color:green;}
-
-
+body {background-color:black;color:white;font-family:arial;}
+h1{color:grey;font-family:verdana;font-size:1.2em;margin:15px 0 25px;text-align:center;}
+.maindiv{background-color:white;border-radius:25px;color:black;margin:10px auto 0;padding:20px;width:300px;}
+.maindiv>div{margin-top:10px;}
+.maindiv>div>span{display:inline-block;padding:0 10px 0 0;text-align:right;width:32%;}
+.maindiv>div>.rate{display:inline-block;width:60%;}
+.maindiv>div>.rate>#rate{width:100%}
+.maindiv>div>.rate>#rate_val{display:block;text-align:center}
+.maindiv>div.wpr_btns{ margin-top:25px;text-align:center}
+.wpr_btns>button{background-color:#ffc107;border:1px solid #ffc107;border-radius:6px;color:black;display:none;font-size:1.1em;padding:5px 15px;text-align:center;}
+.wpr_btns>.result{background-color:#6c757d;border:1px solid #6c757d;border-radius:6px;color:white;display:inline-block;font-size:1.1em;padding:5px 15px;text-align:center;}
+#alert{background-color:#f8d7da;border-color:#f5c6cb;border-radius:5px;color:#721c24;display:none;font-size:0.9em;margin-bottom:10px;margin-top:-21px;padding:6px 8px;}
+.error>#alert{display:block}
+.error>.wpr_btns>.result{background-color:#dc3545;border:1px solid #dc3545;}
+.wpr_result{background-color:#d4edda;border-color:#c3e6cb;border-radius:5px;color:#155724;display:none;font-size:0.9em;margin-top:10px;padding:6px 8px;}
+.result>.wpr_result{display:block}
+.result>.wpr_result b{font-size:1.1em}
+.result>.wpr_btns>button{display:inline-block}
+.result.error>.wpr_btns>.result{background-color:#28a745;border:1px solid #28a745;}
+footer{text-align: center;font-size:.9em;margin-top:10px;}
