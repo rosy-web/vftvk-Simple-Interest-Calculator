@@ -3,7 +3,8 @@ function compute()
     var prin = parseInt(document.getElementById("principal").value);
     if(isNaN(prin)||prin<=0)
     { 
-        document.getElementById("alert").innerHTML = "Enter a positive number to calculate"; 
+        alert("Enter a positive number to calculate interest");
+        document.getElementById("alert").innerHTML = "Enter a positive number to calculate interest"; 
         document.getElementById("wpr").className = "maindiv error";
         document.getElementById("principal").focus();
     }
